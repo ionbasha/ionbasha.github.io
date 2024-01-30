@@ -3,6 +3,7 @@ body {
     width: 960px;
     margin: auto;
     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .heading {
@@ -24,7 +25,7 @@ body {
 }
 
 .smallText {
-    font-size: 10px;
+    font-size: 12px;
     color: rgb(75, 75, 75);
 }
 
@@ -33,24 +34,51 @@ body {
     text-align: left;
     background-color: rgb(86, 204, 255);
     color: rgb(75, 75, 75);
-    font-size: 12px;
+    font-size: 18px;
     border: 5px solid rgb(45, 178, 255);
 }
 
 .resumeButton {
     background-color: rgb(127, 127, 127);
     border-radius: 10%;
-    padding: 8px;
+    padding: 12px;
     border: 1.5px solid black;
+    font-size: 18px;
 }
 
 .resumeButton:hover {
     opacity: 0.87;
     text-decoration: underline;
-    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-color: white;
 }
 
-.mp4 {
-    border: 5px solid rgb(0, 0, 0);
-    padding: 10px
+.resumeLink {
+    color: rgb(255, 255, 255);
+    text-underline-position: unset;
+    text-decoration: none;
+}
+
+.media-buttons a {
+    color: rgb(11, 89, 222);
+    font-size: 28px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+ion-icon:hover {
+    opacity: 0.7;
+}
+
+.vid {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 150px;
+    text-align: center;
+}
+
+.demos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
